@@ -1,0 +1,65 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Lobster&family=Space+Grotesk:wght@600&display=swap');
+
+
+* {
+  margin: 0;
+  
+}
+
+h4{
+  text-align: center;
+  font-family: 'Fasthand', cursive;
+  font-family: 'Lobster', cursive;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: x-large;
+  color: rgb(0, 0, 0);
+  
+}
+
+.header{
+  background-color: rgb(40, 39, 39);
+  color: aliceblue;
+  border: 3px solid black;
+  font-family: 'Fasthand', cursive;
+  font-family: 'Lobster', cursive;
+  font-size: xx-large;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tatto-img img{ 
+  display: block;
+  object-fit: cover;
+  width: 100%;
+  margin-top: 30px;
+  border-radius: 10%;
+  margin-bottom: 20px;
+  cursor: pointer;
+  box-shadow: 2px 2px 15px 7px rgba(128, 0, 0, 1);
+  -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+
+}
+
+.tatto-img img:hover  {
+  box-shadow: 2px 2px 14px 10px rgba(1, 248, 178, 0.96);
+  -webkit-transform: scale(1.3);
+	transform: scale(1.3);
+
+  
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 50px;
+  row-gap: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+
+}

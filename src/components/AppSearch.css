@@ -1,0 +1,17 @@
+.app-search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem auto;
+}
+input{
+    width: 50%;
+    height: 40px;
+    font-size: 20px;
+    border: 2px solid black;
+    outline: none;
+}
+input:hover{
+    background-color: rgb(77, 76, 76);
+    color: aliceblue;
+}
